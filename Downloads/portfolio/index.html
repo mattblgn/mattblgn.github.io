@@ -13,9 +13,9 @@
     }
 
     :root {
-      --primary: #ff6b35; /* Orange pirate */
-      --secondary: #f7931e; /* Gold */
-      --accent: #00a8cc; /* Ocean blue */
+      --primary: #e74c3c; /* Straw Hat red */
+      --secondary: #f1c40f; /* Pirate gold */
+      --accent: #3498db; /* Ocean blue */
       --dark: #0f172a;
       --darker: #020617;
       --light: #f1f5f9;
@@ -44,9 +44,9 @@
       z-index: -1;
       opacity: 0.4;
       background: 
-        radial-gradient(circle at 20% 30%, rgba(255, 107, 53, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 70%, rgba(247, 147, 30, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(0, 168, 204, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 30%, rgba(231, 76, 60, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(241, 196, 15, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(52, 152, 219, 0.1) 0%, transparent 50%);
       animation: meshMove 20s ease-in-out infinite;
     }
 
@@ -67,7 +67,7 @@
     .shape {
       position: absolute;
       border-radius: 50%;
-      background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(247, 147, 30, 0.1));
+      background: linear-gradient(135deg, rgba(241, 196, 15, 0.1), rgba(231, 76, 60, 0.1));
       animation: float 25s infinite ease-in-out;
     }
 
@@ -136,11 +136,21 @@
       text-align: center;
       padding: 8rem 5% 4rem;
       position: relative;
+      background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
     }
 
     .hero-content {
       max-width: 900px;
       animation: fadeInUp 1s ease-out;
+      background: rgba(15, 23, 42, 0.8);
+      backdrop-filter: blur(15px);
+      border-radius: 25px;
+      padding: 3rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
     }
 
     @keyframes fadeInUp {
@@ -718,7 +728,7 @@
 
   <nav>
     <div class="container">
-      <div class="logo">MB</div>
+      <div class="logo">🏴‍☠️ MB</div>
       <ul>
         <li><a href="#hero">Accueil</a></li>
         <li><a href="#about">À propos</a></li>
@@ -752,7 +762,7 @@
     <div class="about-grid">
       <div class="about-content">
         <p>Actuellement en première année de BTS SIO option SISR, je découvre le monde fascinant de l'informatique. Passionné depuis toujours par la technologie, je me spécialise dans l'administration des systèmes et réseaux, avec un intérêt croissant pour la cybersécurité.</p>
-        <p>Mon parcours scolaire m'a permis d'acquérir des bases solides en programmation, réseaux et systèmes d'exploitation. Je suis motivé à développer mes compétences techniques et à réaliser des projets concrets qui me préparent aux défis du monde professionnel.</p>
+        <p>Je suis motivé à développer mes compétences techniques et à réaliser des projets concrets qui me préparent aux défis du monde professionnel.</p>
         <p>Mon objectif : réussir mon BTS SIO et poursuivre vers une carrière enrichissante dans l'IT, en contribuant à des infrastructures fiables et sécurisées.</p>
       </div>
       <div class="stats-grid">
@@ -1039,7 +1049,7 @@
         <div class="timeline-content">
           <h3>BTS SIO option SISR</h3>
           <div class="company">Lycée Technique</div>
-          <p>Formation en cours : administration des systèmes et réseaux, cybersécurité, virtualisation, programmation et gestion de projets informatiques.</p>
+          <p>Formation en cours : administration des systèmes et réseaux, cybersécurité, virtualisation, programmation et gestion de projets informatiques. Je m'appuie sur des bases solides acquises en programmation, réseaux et systèmes d'exploitation.</p>
         </div>
         <div class="timeline-dot"></div>
       </div>
